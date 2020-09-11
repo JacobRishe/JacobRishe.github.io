@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+#nav {
+  top: 0;
+  left: 30px;
+  position: fixed;
+  margin: 0;
+  background: #333;
+  padding: 15px;
+  list-style: none;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+#nav a {
+  padding: 10px 10px;
+  color: #f3f3f3;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  color: #D05A24;
+}
+
+.section {
+  height: 800px;
+  padding: 50px 300px;
+}
+
+.section-1 {
+  height: 700px;
+  padding: 50px 300px;
+}
+
+.section-2 {
+  height: 600px;
+  padding: 50px 300px;
+}
+
+.intro {
+  line-height: 15px;  
+}
+
+.summary {
+  padding: 50px 50px 0px 0;
+  text-align: left;
+}
+
+#home {
+  background: #eee;
+}
+
+.award {
+  margin: 0px 50px 0px 800px;
+  position: absolute;
+  color: #D05A24;
+}
+
+#circle {
+  margin: -65px 0px 0px 50px;
+  color: #333;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.grid {
+  display: flex;
+}
+
+#features {
+  margin: 60px 0px;
+}
+
+#features .icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  width: 5vw;
+  height: 125px;
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 75px;
+  line-height: 2px;
+}
+
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+}
+
+#icons {
+  position: absolute;
+  padding: 55px 0px 0px 550px;
+}
+
+#icon-1, #icon-2, #icon-3, #icon-4, #icon-5, #icon-6, #icon-7 {
+    color: #D05A24;
+    padding: 0px 50px 0 0;
+}
+
+#work {
+  background: #333;
+}
+
+.worktitle {
+  color: #fff;
+   font-size: 40px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.box-1, .box-2, .box-3 {
+  width: 300px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 12px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  text-align: center;
+  margin: 0px 40px;
+}
+
+.box-1 span,
+.box-2 span,
+.box-3 span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.box-1 .heading,
+.box-2 .heading,
+.box-3 .heading {
+  font-size: 20px;
+}
+
+.box-1 p,
+.box-2 p,
+.box-3 p {
+  color: #fff;
+  text-align: center;
+  width: 230px;
+  }
+
+.box-1 button,
+.box-2 button,
+.box-3 button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 505;
+  cursor: pointer;
+}
+
+.box-1 button a:hover,
+.box-2 button a:hover,
+.box-3 button a:hover {
+  color: #D05A24;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+.box-1 button a,
+.box-2 button a,
+.box-3 button a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#contact {
+  background: #ccc;
+}  
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+}
+
+.hero {
+  font-size: 25px;
+}
+
+.hero > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.hero input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  font-weight: 200;
+  text-align: center;
+  color: #000000;
+}
+
+.hero input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  font-weight: bold;
+  background-color: #ccc;
+}
+
+.hero input[type="submit"]:hover {
+  color: #D05A24;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .hero {
+    margin-top: 250px;
+  }
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+.social {
+  word-spacing: 25px;
+}
+
+#social-1:hover,
+#social-2:hover {
+  color: #D05A24;
+  cursor: pointer;
+}
+
+footer {
+  bottom: 0;
+  background-color: #333;
+  padding: 50px;
+  width: 100%;
+}
+
+footer > span {
+  display: flex;
+  font-size: 0.9em;
+  color: #fff;
+  justify-content: center;
+}
