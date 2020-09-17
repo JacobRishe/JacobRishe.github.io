@@ -62,6 +62,13 @@ html, body {
   transform: translateX(-70%);
 }
 
+.about-container {
+  height: 330px;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+
 .summary {
   padding: 50px 50px 0px 0;
   text-align: left;
