@@ -58,7 +58,8 @@ html, body {
   height: 560px;
   position: absolute;
   left: 70%;
-  bottom: 0px;
+  bottom: 200px;
+  transform: translateX(-70%);
 }
 
 .summary {
