@@ -71,8 +71,11 @@ html, body {
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   align-items: center;
   margin-top: 300px;
-  position: absolute;
+  position: relative;
   z-index: 5;
+  display: flex;
+  margin: -7% auto 20px auto 20px;
+  justify-content: space-evenly;
 }
 
 .summary {
