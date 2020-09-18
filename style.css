@@ -73,8 +73,7 @@ html, body {
 }
 
 .summary {
-  padding: 50px 50px 0px 0;
-  text-align: left;
+  width: 550;
 }
 
 #home {
