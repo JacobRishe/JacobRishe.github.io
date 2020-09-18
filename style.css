@@ -64,7 +64,7 @@ html, body {
 
 .about-container {
   height: 330px;
-  width: 80%;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
