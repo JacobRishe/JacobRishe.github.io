@@ -37,7 +37,7 @@ html, body {
 
 .section {
   height: 800px;
-  padding: 50px 300px;
+  padding: 50px 300px 30px;
 }
 
 .section-1 {
