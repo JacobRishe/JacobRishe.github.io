@@ -55,11 +55,12 @@ html, body {
 }
 
 .model {
-  height: 560px;
+  height: 450px;
   position: absolute;
   left: 70%;
   bottom: 200px;
   transform: translateX(-70%);
+  z-index: -1;
 }
 
 .about-container {
@@ -70,6 +71,8 @@ html, body {
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   align-items: center;
   margin-top: 300px;
+  position: absolute;
+  z-index: 0;
 }
 
 .summary {
