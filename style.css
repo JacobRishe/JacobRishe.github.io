@@ -65,13 +65,13 @@ html, body {
 
 .about-container {
   height: 330px;
-  width: 65%;
+  width: 85%;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   align-items: center;
   margin-top: 300px;
-  position: absolute;
+  position: relative;
   z-index: 5;
   display: flex;
   margin: -7% auto 20px auto 20px;
