@@ -54,6 +54,10 @@ html, body {
   line-height: 15px;  
 }
 
+.myname {
+  font-size: 50px;
+}
+
 .model {
   height: 450px;
   position: absolute;
