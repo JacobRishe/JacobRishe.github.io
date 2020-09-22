@@ -19,6 +19,7 @@ html, body {
   background-color: #333;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   padding: 0px 5%;
+  list-style: none;
 }
 
 #nav ul {
@@ -90,7 +91,7 @@ html, body {
 }
 
 #home {
-  background: #eee;
+  background: #fff;
 }
 
 .award {
