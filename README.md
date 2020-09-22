@@ -1,3 +1,3 @@
 # JacobRishe.github.io
 Portfolio
-![](images/portfolio.png)
+![](images/portfoliowithshadow.png)
