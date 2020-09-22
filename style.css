@@ -25,7 +25,7 @@ html, body {
   display: flex;
 }  
 
-#nav ul li {
+#nav li {
   list-style: none;
 }
 
