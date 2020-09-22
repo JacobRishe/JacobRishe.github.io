@@ -314,7 +314,14 @@ p {
   word-spacing: 25px;
 }
 
-#social-1:hover,
+#social-1 {
+  color: #D05A24
+}
+
+#social-1:hover {
+  color: #000;
+}
+
 #social-2:hover {
   color: #D05A24;
   cursor: pointer;
