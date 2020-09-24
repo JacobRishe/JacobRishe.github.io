@@ -23,7 +23,7 @@ html, body {
 
 #nav ul {
   display: flex;
-}  
+}
 
 #nav li {
   list-style: none;
@@ -42,22 +42,50 @@ html, body {
 }
 
 .section {
-  height: 1050px;
-  padding: 50px 300px 30px;
+  height: auto;
+  padding: 100px 300px 30px;
+  overflow: hidden;
 }
 
 .section-1 {
-  height: 700px;
-  padding: 50px 300px;
+  height: auto;
+  padding: 50px 200px 100px;
 }
 
 .section-2 {
-  height: 600px;
-  padding: 50px 300px;
+  height: auto;
+  padding: 50px 200px 100px;
 }
 
+
 .intro {
-  line-height: 15px;  
+  line-height: 15px;
+}
+
+.intro button {
+  height: 42px;
+  width: 130px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  outline: none;
+  margin: 0px 10px;
+}
+
+.hire-button {
+  background-color: #fff;
+  border: 2px solid #333;
+  color: #333;
+}
+
+.download-cv {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+button:active {
+  transform: scale(1.1);
 }
 
 .myname {
@@ -97,15 +125,16 @@ html, body {
 }
 
 .award {
-  margin: 0px 50px 0px 800px;
+  margin: -40px 50px 0px 900px;
   position: absolute;
   color: #D05A24;
+  z-index: 5;
 }
 
 #circle {
-  margin: -65px 0px 0px 50px;
+  margin: -68px 0px 0px 50px;
   color: #333;
-  font-weight: bold;
+  z-index: 1;
 }
 
 .container {
@@ -161,7 +190,7 @@ html, body {
 
 #icons {
   position: absolute;
-  padding: 55px 0px 0px 550px;
+  padding: 700px 0px 0px 550px;
 }
 
 #icon-1, #icon-2, #icon-3, #icon-4, #icon-5, #icon-6, #icon-7 {
@@ -175,13 +204,32 @@ html, body {
 
 .worktitle {
   color: #fff;
-   font-size: 40px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.skills {
+  display: flex;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.skills1, .skills2, .skills3 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  color: #fff;
+  margin: 100px 20px 20px -100px;
 }
 
 .box-container {
   display: flex;
   justify-content: space-around;
   padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .box-1, .box-2, .box-3 {
@@ -257,7 +305,7 @@ html, body {
 
 #contact {
   background: #ccc;
-}  
+}
 
 .desc {
   display: flex;
