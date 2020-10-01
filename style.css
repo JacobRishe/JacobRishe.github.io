@@ -102,11 +102,12 @@ button:active {
   bottom: 150px;
   transform: translateX(-70%);
   z-index: 0;
+  float: none;
 }
 
 @media screen and (min-width: 1920px) {
   .model {
-    height: 650px;
+    height: 600px;
     bottom: 200px;
     left: 65%;
     transform: translateX(-80%);
