@@ -214,24 +214,24 @@ button:active {
   }
 }
 
-#icons {
+.icons {
   position: absolute;
   padding: 700px 0px 0px 525px;
 }
 
 @media screen and (min-width: 1920px) {
-  #icons {
+  .icons {
     padding: 700px 0px 0px 675px;
   }
 }
 
-#icon-1, #icon-2, #icon-3, #icon-4, #icon-5, #icon-6, #icon-7 {
+.icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7 {
     color: #D05A24;
     padding: 0px 75px 0 0;
 }
 
 @media screen and (min-width: 1920px) {
-  #icon-1, #icon-2, #icon-3, #icon-4, #icon-5, #icon-6, #icon-7 {
+  .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7 {
     padding: 0px 100px 0 0;
   }
 }
@@ -325,9 +325,9 @@ button:active {
   cursor: pointer;
 }
 
-.box-1 button a:hover,
-.box-2 button a:hover,
-.box-3 button a:hover {
+.box-1 button:hover,
+.box-2 button:hover,
+.box-3 button:hover {
   color: #D05A24;
   transition: background-color .5s;
   cursor: pointer;
