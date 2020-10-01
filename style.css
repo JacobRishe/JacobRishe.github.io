@@ -325,20 +325,20 @@ button:active {
   cursor: pointer;
 }
 
-.box-1 button a:hover,
-.box-2 button a:hover,
-.box-3 button a:hover {
-  color: #D05A24;
-  transition: background-color .5s;
-  cursor: pointer;
-}
-
 .box-1 button a,
 .box-2 button a,
 .box-3 button a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+}
+
+.box-1 button a:hover,
+.box-2 button a:hover,
+.box-3 button a:hover {
+  color: #D05A24;
+  transition: background-color .5s;
+  cursor: pointer;
 }
 
 #contact {
