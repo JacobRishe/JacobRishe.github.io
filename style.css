@@ -325,7 +325,7 @@ button:active {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
+
 .box-1 button:hover,
 .box-2 button:hover,
 .box-3 button:hover {
@@ -334,8 +334,6 @@ button:active {
   cursor: pointer;
 }
 
-=======
->>>>>>> fa002b6d78f743f96d3e083e47c9c8fac2bb5fb6
 .box-1 button a,
 .box-2 button a,
 .box-3 button a {
@@ -344,13 +342,6 @@ button:active {
   font-weight: bold;
 }
 
-.box-1 button a:hover,
-.box-2 button a:hover,
-.box-3 button a:hover {
-  color: #D05A24;
-  transition: background-color .5s;
-  cursor: pointer;
-}
 
 #contact {
   background: #ccc;
