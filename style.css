@@ -96,23 +96,21 @@ button:active {
 }
 
 .model {
-  height: 450px;
+  height: 65%;
+  bottom: 25%;
   position: absolute;
-  left: 70%;
-  bottom: 150px;
+  left: 65%;
   transform: translateX(-70%);
   z-index: 0;
   background: fixed;
 }
 
-@media screen and (min-width: 1366px) {
-  .model {
-    height: 600px;
-    bottom: 200px;
-    left: 65%;
-    transform: translateX(-80%);
-    padding-bottom: 100px;
-  }
+ @media only screen and (min-width : 1824px) {
+.model {
+  height: 55%;
+  bottom: 40%;
+  left: 60%;
+}
 }
 
 .about-container {
