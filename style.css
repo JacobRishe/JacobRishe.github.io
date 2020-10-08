@@ -115,6 +115,16 @@ button:active {
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .model {
+    height: 500px;
+    bottom: 200px;
+    left: 65%;
+    transform: translateX(-80%);
+    padding-bottom: 100px;
+  }
+}
+
 .about-container {
   height: 300px;
   width: 100%;
