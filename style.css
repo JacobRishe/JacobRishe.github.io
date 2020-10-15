@@ -99,7 +99,7 @@ button:active {
 
 .model {
   height: 65%;
-  bottom: 25%;
+  bottom: 20%;
   position: absolute;
   left: 65%;
   transform: translateX(-70%);
