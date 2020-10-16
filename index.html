@@ -30,13 +30,14 @@
       <h1 class="myname">I'm Jacob Rishe</h1>
       <p>Freelancing Designer & Developer</p>
       <a href="#contact" class="js-anchor">
-      <button class="hire-button">Hire Me</button></a>
+        <button class="hire-button">Hire Me</button></a>
       <a href="https://github.com/JacobRishe/JacobRishe.github.io/raw/2ec2f8daa402446a506708cfd26b23f3189ff7e4/Jacob_RisheResume.docx">
         <button class="download-cv">Download CV</button>
       </a>
     </div>
     <div class="about-container">
-      <p class="summary">Self-taught web developer and designer. After earning a bachelor’s degree in business, I assisted with many website design and development projects at a startup digital marketing company. To advance my knowledge within the field, I learned a number
+      <p class="summary">Self-taught web developer and designer. After earning a bachelor’s degree in business, I assisted with many website design and development projects at a startup digital marketing company. To advance my knowledge within the
+        field, I learned a number
         of programming languages through independent projects. I’m currently working as a freelance developer interested in joining a major tech company to advance my career.</p>
     </div>
     <a href="#home" class="js-anchor"></a>
@@ -122,21 +123,46 @@
       <h1>Contact</h1>
       <a href="#contact" class="js-anchor"></a>
 
-      <div class="desc">
-        <p>Have me create for you!</p>
-        <form id="form" action="https://www.freecodecamp.com.email-submit">
-          <input name="email" id="email" type="email" placeholder="Enter your email address" onlick="alert('I will be intouch')" />
-          <input id="submit" type="submit" value="Submit" class="btn" />
+      <!---form---------------------------->
+      <div class="container">
+        <header class="header">
+          <p id="description" class="description text-center">Please fill in your information below</p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your Name" required />
+          </div>
+          <div class="form-group">
+            <label id="name-label" for="name">Company</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your Company" required />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email2" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Phone</label>
+            <input type="Age" name="Age" id="Age" class="form-control" placeholder="Enter best number to reach you" />
+          </div>
+          <div class="form-group">
+            <p>Any additional comments?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button" action="mailto:Jacob.rishe@gmail.com">Submit</button>
+          </div>
         </form>
-        <div class="social">
-          <i class="fab fa-github-square fa-3x" href="https://jacobrishe.github.io/" id="social-1"></i>
-          <i class="fab fa-linkedin fa-3x" id="social-2" href="https://www.linkedin.com/in/jacob-rishe-4a086389/" target="https://www.linkedin.com/in/jacob-rishe-4a086389/"></i>
-        </div>
+
       </div>
     </div>
   </section>
 </body>
 <footer>
+  <div class="social">
+    <a href="https://jacobrishe.github.io/"><i class="fab fa-github-square fa-3x" id="social-1"></i></a>
+    <a href="https://www.linkedin.com/in/jacob-rishe-4a086389/"><i class="fab fa-linkedin fa-3x" id="social-2"></i></a>
+  </div>
   <span>©2020 Copyright. Developed by Jacob Rishe.</span>
 </footer>
 <!-- partial -->
