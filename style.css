@@ -97,11 +97,12 @@ button:active {
 }
 
 .model {
+  display: flex;
   position: absolute;
-  height: 70%;
-  bottom: 15%;
-  left: 60%;
+  left: 1000px;
+  top: 50px;
   transform: translateX(-70%);
+  z-index: 1;
 }
 
  @media only screen and (min-width : 1824px) {
@@ -513,7 +514,36 @@ form {
     border-radius: 2px;
     cursor: pointer;
     border-color: var(--color-green);
+    transition: .3s ease background-color;
   }
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#status.success {
+  background-color: rgb(208, 90, 36);
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 
   .social {
     word-spacing: 25px;
