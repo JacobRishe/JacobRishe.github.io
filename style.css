@@ -99,7 +99,7 @@ button:active {
 .model {
   display: flex;
   position: absolute;
-  left: 1000px;
+  left: 900px;
   top: 50px;
   transform: translateX(-70%);
   z-index: 1;
