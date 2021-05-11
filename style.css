@@ -610,7 +610,6 @@ footer {
   background-color: #333;
   padding: 50px;
   width: 100%;
-  display: flex;
 }
 
 footer > span {
